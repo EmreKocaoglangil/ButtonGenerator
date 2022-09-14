@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Button Generator</title>
+</head>
+
+<body>
+<div id="Resp">
+    <label for="text">Text = </label>
+    <input type="text" id="text" name="text" value="Preview" />
+    <br />
+    <label for="font-family">Font-Family = </label>
+    <select name="font-family" id="">
+        <option value="Arial">Arial</option>
+        <option value="Georgia" selected>Georgia</option>
+        <option value="Courier New">Courier New</option>
+    </select>
+    <br />
+    <label for="font-size">Font Size = </label>
+    <input min="0" type="number" name="font-size" id="font-size-number" />
+    <input type="range" name="font-size" id="font-size-range" />
+    <br /> 
+    <label for="">Font Color = </label>
+    <input type="text" id="font-color-text" />
+    <input type="color" id="font-color-hex" />
+    <br/>
+    <label for="Background-Color">Background Color = </label>
+    <input type="color" id="background-color-hex"/>
+    <br/>
+    <label for="Border-radius">Border Radius (px) = </label>
+    <input max = "100"type="number" id="Border-radius"/>
+    <div class="preview">
+        <button>Preview</button>
+    </div>
+    <div class="css_script">
+        { 
+        <br>
+           <span class="font-family">font-family : </span> <br>
+           <span class="font-size">font-size :</span> <br>
+           <span class="font-color">color : </span> <br>
+           <span class="background-color">background-color : </span> <br>
+           <span class="border-radius">border-radius : </span> <br>
+        }
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

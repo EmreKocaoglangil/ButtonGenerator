@@ -1,0 +1,27 @@
+*{
+ margin:0px;
+ padding:0px;
+ box-sizing: border-box;
+}
+
+#Resp{
+   width: fit-content;
+   margin:50px auto;
+   border:1px solid red;
+   padding:30px;
+}
+
+
+/* #Resp > *:not(*:nth-last-child(1)) {
+   margin-bottom :100px;
+} */
+
+#Resp > * {
+   margin-bottom : 3vh;
+}
+
+#Resp > *:nth-last-child(1){
+   margin-bottom :0;   
+}
+/*kevin powel!!*/
+
